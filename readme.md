@@ -82,6 +82,7 @@ In the JS code you will see references to **```req.query.a```** and **```req.que
 
 If a value is missing, then it is considered **undefined**. Attempting to read an undefined value will cause an exception and so it is important to check that the values exist first.
 
+#### The following endpoint function for ```add``` goes in **```controllers\calcuator.js```** 
 *See the code comments for more details.*
 
 ```javascript
